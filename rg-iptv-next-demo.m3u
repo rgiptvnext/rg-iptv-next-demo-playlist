@@ -1,0 +1,32 @@
+#EXTM3U
+# RG IPTV NEXT — Public Demo & QA Playlist
+
+#EXTINF:-1 group-title="RG IPTV NEXT • Live QA",Akamai Live Test 1080p
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • Live QA",Akamai Live Test 720p
+https://moctobpltc-i.akamaihd.net/hls/live/571329/eight/playlist.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Big Buck Bunny • Multi-Bitrate
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Tears of Steel • HLS
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Tears of Steel • MP4-backed HLS
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Apple BipBop • fMP4
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Apple BipBop • HEVC
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Angel One • Multi-Audio/Captions
+https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Apple BipBop • TS + Captions
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • Advanced QA",Big Buck Bunny • fMP4/CMAF
+https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8
