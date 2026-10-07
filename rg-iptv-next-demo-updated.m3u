@@ -20,7 +20,7 @@ http://103.185.24.134:3001/Star-Gold/index.m3u8
 #EXTINF:-1 tvg-id="StarPlus.in@HD" group-title="RG IPTV NEXT • Live TV",StarPlus HD (1080p)
 http://103.185.24.134:3001/Star-Plus/index.m3u8
 
-#EXTINF:-1 tvg-id="StarMovies.in@HD" group-title="RG IPTV NEXT • Live TV",Star Movies HD (1080p)
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Star Movies HD (1080p)
 http://103.185.24.134:3001/Star-Movies/index.m3u8
 
 #EXTINF:-1 tvg-name="BBC News" tvg-id="BBCNews.uk" tvg-chno="231" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",BBC News HD
