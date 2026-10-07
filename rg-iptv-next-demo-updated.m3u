@@ -20,9 +20,6 @@ http://103.185.24.134:3001/Star-Gold/index.m3u8
 #EXTINF:-1 tvg-id="StarPlus.in@HD" group-title="RG IPTV NEXT • Live TV",StarPlus HD (1080p)
 http://103.185.24.134:3001/Star-Plus/index.m3u8
 
-#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Star Movies HD (1080p)
-http://103.185.24.134:3001/Star-Movies/index.m3u8
-
 #EXTINF:-1 tvg-name="BBC News" tvg-id="BBCNews.uk" tvg-chno="231" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",BBC News HD
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
@@ -34,6 +31,9 @@ https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2
 
 #EXTINF:-1 tvg-name="Bloomberg TV" tvg-id="BloombergTVEurope.uk" tvg-chno="208" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",Bloomberg TV
 https://bloomberg.com/media-manifest/streams/eu.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Star Movies HD (1080p)
+http://103.185.24.134:3001/Star-Movies/index.m3u8
 
 #EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Rakuten TV Sci-Fi Spain (1080p)
 https://sci-fi-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6740/master.m3u8
