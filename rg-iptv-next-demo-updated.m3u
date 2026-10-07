@@ -1,0 +1,57 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+# RG IPTV NEXT — Public Demo & QA Playlist
+# Akamai test channels removed.
+
+#EXTINF:-1 tvg-name="BBC One" tvg-id="BBCOne.uk" tvg-chno="1" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",BBC One HD
+https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8
+
+#EXTINF:-1 tvg-name="BBC Two" tvg-id="BBCTwo.uk" tvg-chno="2" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",BBC Two HD
+https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.m3u8
+
+#EXTINF:-1 tvg-name="BBC News" tvg-id="BBCNews.uk" tvg-chno="231" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",BBC News HD
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 tvg-name="BBC Parliament" tvg-id="BBCParliament.uk" tvg-chno="232" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",BBC Parliament HD
+https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/pc_hd_abr_v2.m3u8
+
+#EXTINF:-1 tvg-name="Sky News" tvg-id="SkyNews.uk" tvg-chno="233" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",Sky News HD
+https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_hd/Live/channel(skynews)/index_mob.m3u8
+
+#EXTINF:-1 tvg-name="GB News" tvg-id="GBNews.uk" tvg-chno="236" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",GB News
+https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
+
+#EXTINF:-1 tvg-name="TalkTV" tvg-id="TalkTV.uk" tvg-chno="237" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",TalkTV
+https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Bloomberg TV" tvg-id="BloombergTVEurope.uk" tvg-chno="208" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",Bloomberg TV
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+
+#EXTINF:-1 tvg-name="NHK World Japan" tvg-id="NHKWorldJapan.jp" tvg-chno="209" tvg-country="JP" group-title="RG IPTV NEXT • Live TV",NHK World Japan
+https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
+
+#EXTINF:-1 tvg-name="Arirang World" tvg-id="ArirangWorld.kr" tvg-chno="214" tvg-country="KR" group-title="RG IPTV NEXT • Live TV",Arirang World
+http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Big Buck Bunny • Multi-Bitrate
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Tears of Steel • HLS
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Tears of Steel • MP4-backed HLS
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Apple BipBop • fMP4
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Apple BipBop • HEVC
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Angel One • Multi-Audio/Captions
+https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • HLS QA",Apple BipBop • TS + Captions
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8
+
+#EXTINF:-1 group-title="RG IPTV NEXT • Advanced QA",Big Buck Bunny • fMP4/CMAF
+https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8
