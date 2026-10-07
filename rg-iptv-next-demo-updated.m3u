@@ -2,6 +2,27 @@
 # RG IPTV NEXT — Public Demo & QA Playlist
 # Akamai test channels removed.
 
+#EXTINF:-1 tvg-id="AajTak.in@HD" group-title="RG IPTV NEXT • Live TV",Aaj Tak HD (1080p)
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+
+#EXTINF:-1 tvg-id="NDTVIndia.in@SD" group-title="RG IPTV NEXT • Live TV",NDTV India (720p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTVIndia.m3u8
+
+#EXTINF:-1 tvg-id="9XJhakaas.in@SD" group-title="RG IPTV NEXT • Live TV",9X Jhakaas (1080p)
+https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SonyMax.in@HD" group-title="RG IPTV NEXT • Live TV",Sony Max HD (1080p)
+http://103.185.24.134:3001/SonyMAX/index.m3u8
+
+#EXTINF:-1 tvg-id="StarGold.in@HD" group-title="RG IPTV NEXT • Live TV",Star Gold HD (1080p)
+http://103.185.24.134:3001/Star-Gold/index.m3u8
+
+#EXTINF:-1 tvg-id="StarPlus.in@HD" group-title="RG IPTV NEXT • Live TV",StarPlus HD (1080p)
+http://103.185.24.134:3001/Star-Plus/index.m3u8
+
+#EXTINF:-1 tvg-id="StarMovies.in@HD" group-title="RG IPTV NEXT • Live TV",Star Movies HD (1080p)
+http://103.185.24.134:3001/Star-Movies/index.m3u8
+
 #EXTINF:-1 tvg-name="BBC News" tvg-id="BBCNews.uk" tvg-chno="231" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",BBC News HD
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
@@ -14,6 +35,9 @@ https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2
 #EXTINF:-1 tvg-name="Bloomberg TV" tvg-id="BloombergTVEurope.uk" tvg-chno="208" tvg-country="GB" group-title="RG IPTV NEXT • Live TV",Bloomberg TV
 https://bloomberg.com/media-manifest/streams/eu.m3u8
 
+#EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Rakuten TV Sci-Fi Spain (1080p)
+https://sci-fi-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6740/master.m3u8
+
 #EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Big Buck Bunny • Multi-Bitrate
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
@@ -22,6 +46,3 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 
 #EXTINF:-1 group-title="RG IPTV NEXT • VOD QA",Tears of Steel • MP4-backed HLS
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8
-
-#EXTINF:-1 group-title="RG IPTV NEXT • Advanced QA",Big Buck Bunny • fMP4/CMAF
-https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8
